@@ -25,4 +25,6 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
     private fun openMainFragment() {
         (activity as NavigationHandler).openMainScreen()
     }
+
+
 }
